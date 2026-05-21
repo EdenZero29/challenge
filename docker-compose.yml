@@ -1,0 +1,7 @@
+services:
+  mon-app:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: mon-conteneur-preprod
+    restart: always
